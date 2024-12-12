@@ -8,21 +8,51 @@
         body {
     font-family: Arial, sans-serif;
     margin: 20px;
+}  
+header .centro {
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
+.cabeca {
+    
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(160, 129, 129, 0.462); /* Fundo branco translúcido */
+    /*border-radius: 10px;*/
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+    background-image: url('logo.jpg'); /* Substitua por sua imagem */
+    background-size: cover;
+    background-position: center;
+
+}
+header > h1 {
+    font-size: 4em;
+    color: black;
+    text-shadow: 1px 4px 8px rgba(255, 255, 255);
+}
+header > p { 
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 1px 4px 8px rgba(0, 0, 0);
+}
+        
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(160, 129, 129, 0.462); /* Fundo branco translúcido */
-    border-radius: 10px;
+   /* border-radius: 10px;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-image: url('sua-imagem.jpg'); /* Substitua por sua imagem */
+    background-image: url('logo2.jpg'); /* Substitua por sua imagem */
     background-size: cover;
     background-position: center;
 }
 
 h1 {
     text-align: center;
+    color: white;
+    text-shadow: 1px 4px 8px rgba(0, 0, 0);
 }
 
 h2 {
@@ -39,9 +69,26 @@ p {
         font-size: 16px;
     }
 }
+footer {   
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.944); /* Fundo branco translúcido */
+    border-radius: 10px, 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0);
+    background-image: url('logo1.jpg'); /* Substitua por sua imagem */
+    background-size: cover;
+    background-position: center;
+        }
     </style>
 </head>
 <body>
+    <header class="cabeca">
+        <h1>6º ano</h1>
+        <p class="centro">Página em apoio ao alunos da <strong>Escola Estadual Pedro Mestre</strong></p>
+    </header>
     <div class="container">
     <h1>A Invenção da Escrita</h1>
 
@@ -62,6 +109,15 @@ p {
 
     <h2>Importância da Escrita</h2>
     <p>A escrita permitiu a preservação do conhecimento, a comunicação entre diferentes povos e a transmissão de ideias ao longo das gerações. Ela foi fundamental para o desenvolvimento da ciência, da filosofia, da literatura e de muitas outras áreas do conhecimento humano.</p>
+   
 </div>
+<div class="container">
+    <h1>Atualidades</h1>
+    <p><a href="https://g1.globo.com/noticia/2024/12/12/guerra-do-paraguai-160-anos-as-descobertas-que-contradizem-o-que-a-escola-ensinou-sobre-o-conflito-sangrento.ghtml?utm_source=whatsapp&utm_medium=share-bar-mobile&utm_campaign=materias" target="_blank">Versão Guerra do paraguai</a></p>
+   
+</div>
+<footer>
+    &copy; 2024 Professor Helvio Souza. Todos os direitos reservados.
+</footer>
 </body>
 </html>
